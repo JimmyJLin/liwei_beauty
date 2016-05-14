@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica", arial;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 200;
+}
+
+#mainBody{
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+/* Header Nav Bar */
+#menu{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+#logo{
+  height: 90px;
+  width: 190px;
+}
+
+/* Body */
+
+
+
+/* Home Page */
+
+
+
+/* Services Page */
+
+
+
+/* Contact Page */
+
+
+
+/* Footer */
