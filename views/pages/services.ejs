@@ -4,6 +4,7 @@
 <head>
   <!-- Head partial -->
   <%- include ../partials/head %>
+
 </head>
 
 <body>
@@ -11,12 +12,41 @@
   <%- include ../partials/header %>
 
   <!-- Body partial -->
-  <div id="mainBody">
-    <h3>Services Page!</h3>
+  <div id="fullpage" class="fullpage-wrapper">
+    <div class="section fp-section active" id="section0" data-anchor="firstpage">
+      Section 1
+    </div>
+
+    <div class="section fp-section" id="section1" data-anchor="secondpage">
+      Section 2
+      <div class="slide" data-anchor="firstslide">Slide 1</div>
+      <div class="slide" data-anchor="secondslide">Slide 2</div>
+      <div class="slide" data-anchor="thirdslide">Slide 3</div>
+      <div class="slide" data-anchor="fourthslide">Slide 4</div>
+    </div>
+
+    <div class="section fp-section" id="section2" data-anchor="thirdpage">
+      Section 3
+    </div>
+
+    <div class="section fp-section" id="section3" data-anchor="fourthpage">
+      Section 4
+    </div>
+
+    <div class="section fp-section" id="section4" data-anchor="fifthpage">
+      Section 5
+    </div>
+
+    <div class="section fp-section" id="section5" data-anchor="sixthpage">
+      Section 6
+    </div>
+
   </div>
   <!-- Body partial ends -->
 
   <!-- Footer partial -->
   <%- include ../partials/footer %>
+  <script src="fullpage/jquery.min.js"></script>
+
 </body>
 </html>

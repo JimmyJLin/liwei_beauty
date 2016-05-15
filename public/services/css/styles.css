@@ -1,20 +1,45 @@
 body{
-  margin: 0;
+  margin: -20px;
   padding: 0;
   font-family: "helvetica", arial;
   -webkit-font-smoothing: antialiased;
   font-weight: 200;
 }
 
-#mainBody{
-  padding-top: 120px;
-  padding-bottom: 50px;
+/* Header Nav Bar */
+
+#headContainer{
+  padding-bottom: 20px
 }
 
-/* Header Nav Bar */
+#header{
+  position: relative;
+}
+
+#mainHead{
+  margin: 20px 40px 0px 40px !important;
+  text-align: center;
+}
+
 #menu{
   max-width: 1024px;
   margin: 0 auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#mainImage{
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#m_btn{
+  display: none;
 }
 
 #logo{
@@ -23,7 +48,11 @@ body{
 }
 
 /* Body */
-
+#mainBody{
+  margin-top: 140px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 
 /* Home Page */
@@ -31,11 +60,50 @@ body{
 
 
 /* Services Page */
+#fullpage-wrapper{
+  height: 100%;
+  position: relative;
+  touch-action: none;
+  transition: all 0ms ease;
+  transform: translate3d(0px, -455px, 0px);
+}
 
-
+.section{
+  height: 455px;
+  background-color: rgb(27, 188, 155);
+}
 
 /* Contact Page */
 
 
 
 /* Footer */
+#footer{
+  margin-top: 140px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+#footersocial{
+  text-align: center;
+}
+
+/* Responsive */
+@media all and (min-width: 990px) {
+  #mainHead .header{
+    margin-top: 10%;
+  }
+}
+
+@media all and (min-width: 631px) {
+  #m_menu.visible{}
+
+}
+
+@media all and (max-width: 630px) {
+  #menu{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+}

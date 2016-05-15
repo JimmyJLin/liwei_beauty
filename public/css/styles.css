@@ -1,20 +1,70 @@
-body{
-  margin: 0;
-  padding: 0;
-  font-family: "helvetica", arial;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 200;
-}
-
-#mainBody{
-  padding-top: 120px;
-  padding-bottom: 50px;
-}
-
 /* Header Nav Bar */
-#menu{
-  max-width: 1024px;
-  margin: 0 auto;
+body {
+  background-color: #FFFFFF;
+}
+.main.container {
+  margin-top: 2em;
+}
+
+.main.menu {
+  margin-top: 4em;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  transition:
+    box-shadow 0.5s ease,
+    padding 0.5s ease
+  ;
+}
+.main.menu .item img.logo {
+  margin-right: 1.5em;
+}
+
+.overlay {
+  float: left;
+  margin: 0em 3em 1em 0em;
+}
+.overlay .menu {
+  position: relative;
+  left: 0;
+  transition: left 0.5s ease;
+}
+
+.main.menu.fixed {
+  background-color: #FFFFFF;
+  border: 1px solid #DDD;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.overlay.fixed .menu {
+  left: 800px;
+}
+
+.text.container .left.floated.image {
+  margin: 2em 2em 2em -4em;
+}
+.text.container .right.floated.image {
+  margin: 2em -4em 2em 2em;
+}
+
+.ui.footer.segment {
+  margin: 5em 0em 0em;
+  padding: 5em 0em;
+}
+
+
+#mainImage{
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#m_btn{
+  margin-left: 10px;
+  display: none;
 }
 
 #logo{
@@ -22,8 +72,20 @@ body{
   width: 190px;
 }
 
-/* Body */
+#borderless {
+  display: none;
+}
 
+#m_btn_hidden {
+  display: none;
+}
+
+/* Body */
+#mainBody{
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 
 /* Home Page */
@@ -31,11 +93,64 @@ body{
 
 
 /* Services Page */
+#fullpage-wrapper{
+  height: 100%;
+  position: relative;
+  touch-action: none;
+  transition: all 0ms ease;
+  transform: translate3d(0px, -455px, 0px);
+}
 
-
+#section{
+  height: 455px;
+  background-color: rgb(27, 188, 155);
+}
 
 /* Contact Page */
-
-
+#googlemap{
+  width:250px;
+  height: 250px:
+}
 
 /* Footer */
+#footer{
+  margin-top: 140px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+#footersocial{
+  text-align: center;
+}
+
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+  width:100%;
+}
+
+#mc_embed_signup input.email{
+  width: 250px;
+}
+
+/* Responsive */
+@media all and (min-width: 990px) {
+  #mainHead .header{
+    margin-top: 10%;
+  }
+}
+
+@media all and (min-width: 631px) {
+  #m_menu.visible{}
+
+}
+
+@media all and (max-width: 630px) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+}
