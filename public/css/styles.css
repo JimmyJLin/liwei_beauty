@@ -191,3 +191,31 @@ body {
     left: 300%;
   }
 }
+
+@media only screen
+and (max-width: 375px)
+and (max-device-width: 667px)
+and (orientation : portrait) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+  .overlay.fixed .menu{
+    left: 550%;
+  }
+}
+
+@media only screen
+and (max-width: 414px)
+and (max-device-width: 736px)
+and (orientation : portrait) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+  .overlay.fixed .menu{
+    left: 550%;
+  }
+}
