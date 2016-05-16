@@ -30,8 +30,14 @@ body {
   transition: left 0.5s ease;
 }
 
+.main.menu {
+  background-color: transparent;
+
+}
+
 .main.menu.fixed {
   background-color: #FFFFFF;
+  opacity: 0.9;
   border: 1px solid #DDD;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
@@ -51,10 +57,13 @@ body {
   padding: 5em 0em;
 }
 
+.overlay.social.fixed {
+  top: 140px !important;
+}
 
 #mainImage{
   width: 100%;
-  height: auto;
+  height: 400px;
   min-height: 100%;
   left: 0;
   top: 0;
@@ -87,6 +96,13 @@ body {
   padding-right: 40px;
 }
 
+.card:hover {
+  opacity: 0.7;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui){
+  color: orange;
+}
 
 /* Home Page */
 
@@ -180,5 +196,50 @@ body {
   }
   .overlay.fixed .menu{
     left: 300%;
+  }
+}
+
+
+/* Mobile Media Queries */
+
+/* iPhone 5 & 5S */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+  .overlay.fixed .menu{
+    left: 820%;
+  }
+}
+
+/* iPhone 6 & 6S */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+  .overlay.fixed .menu{
+    left: 840%;
+  }
+}
+
+/* iPhone 6plus */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+  .overlay.fixed .menu{
+    left: 850%;
   }
 }
