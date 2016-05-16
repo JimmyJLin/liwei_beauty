@@ -192,30 +192,47 @@ body {
   }
 }
 
+
+/* Mobile Media Queries */
+
+/* iPhone 5 & 5S */
 @media only screen
-and (max-width: 375px)
-and (max-device-width: 667px)
-and (orientation : portrait) {
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
   #menu{display: none}
   #headertext{display: none}
   #m_btn{
     display: inline-block;
   }
   .overlay.fixed .menu{
-    left: 550%;
+    left: 820%;
   }
 }
 
+/* iPhone 6 & 6S */
 @media only screen
-and (max-width: 414px)
-and (max-device-width: 736px)
-and (orientation : portrait) {
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
   #menu{display: none}
   #headertext{display: none}
   #m_btn{
     display: inline-block;
   }
   .overlay.fixed .menu{
-    left: 550%;
+    left: 840%;
+  }
+}
+
+/* iPhone 6plus */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+  .overlay.fixed .menu{
+    left: 850%;
   }
 }
