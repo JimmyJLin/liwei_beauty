@@ -121,6 +121,9 @@ body {
   height: 250px:
 }
 
+.ui.dividing.header{
+  text-align: center;
+}
 /* Footer */
 #footer{
   margin-top: 140px;
@@ -196,9 +199,7 @@ body {
 /* Mobile Media Queries */
 
 /* iPhone 5 & 5S */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px) {
+@media screen (device-aspect-ratio: 40/71) {
   #menu{display: none}
   #headertext{display: none}
   #m_btn{
@@ -210,9 +211,7 @@ and (max-device-width: 568px) {
 }
 
 /* iPhone 6 & 6S */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px) {
+@media screen (device-aspect-ratio: 375/667) {
   #menu{display: none}
   #headertext{display: none}
   #m_btn{
@@ -224,9 +223,7 @@ and (max-device-width: 667px) {
 }
 
 /* iPhone 6plus */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px) {
+@media screen (device-aspect-ratio: 16/9) {
   #menu{display: none}
   #headertext{display: none}
   #m_btn{

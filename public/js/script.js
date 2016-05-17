@@ -13,6 +13,7 @@ $(function(){
   $('.main.menu').visibility({
     type: 'fixed'
   });
+
   $('.overlay').visibility({
     type: 'fixed',
     offset: 80
@@ -29,5 +30,8 @@ $(function(){
   $('.main.menu  .ui.dropdown').dropdown({
     on: 'hover'
   });
+
+  // form validation
+  $('.ui.form').form()
 
 })

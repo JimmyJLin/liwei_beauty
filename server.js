@@ -3,7 +3,7 @@ const logger = require('morgan');
 const path = require('path');
 const bodyParser = require('body-parser');
 const serviceRoutes = require(path.join(__dirname, 'routes/services'));
-const contactRoutes = require(path.join(__dirname, 'routes/contact'));
+// const contactRoutes = require(path.join(__dirname, 'routes/contact'));
 
 /* app setting */
 const port = process.env.PORT || 3000;
@@ -29,7 +29,11 @@ app.set('view engine', 'ejs');
 /* Routes */
 // Landing Page
 app.use('/services', serviceRoutes)
-app.use('/contact', contactRoutes)
+// app.use('/contact', contactRoutes)
+
+app.get('/contact', function(req, res){
+  res.render('pages/contact')
+})
 
 app.get('/', function(req, res){
   res.render('pages/index')
