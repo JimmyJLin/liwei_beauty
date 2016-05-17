@@ -1,5 +1,6 @@
-$(function(){
-  console.log("Regular script.js")
+$(document).ready(function() {
+
+  console.log("Service script.js")
   // Dropdown Menu for Services
   $('.dropdown').dropdown()
 
@@ -32,5 +33,6 @@ $(function(){
 
   // start rating on portfolio
   $('.ui.rating').rating({initialRating:3, onRate: function(){console.log('thanks', $(this).rating('get rating'))}})
+
 
 })

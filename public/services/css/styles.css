@@ -1,7 +1,9 @@
-/* Header Nav Bar */
 body {
   background-color: #FFFFFF;
 }
+
+/* Header Nav Bar */
+
 .main.container {
   margin-top: 2em;
 }
@@ -71,6 +73,16 @@ body {
   z-index: -1;
 }
 
+#secondImage{
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  left: 0;
+  top: 400px;
+  position: absolute;
+  z-index: -1;
+}
+
 #m_btn{
   margin-left: 10px;
   display: none;
@@ -97,12 +109,13 @@ body {
 }
 
 .card:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui){
   color: orange;
 }
+
 
 /* Home Page */
 

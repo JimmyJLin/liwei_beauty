@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // static route to public
-app.use(express.static(path.join(__dirname, './public/')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // log
 app.use(logger('dev'));
@@ -28,10 +28,9 @@ app.set('view engine', 'ejs');
 
 /* Routes */
 // Landing Page
+app.use('/services', serviceRoutes)
+app.use('/contact', contactRoutes)
+
 app.get('/', function(req, res){
   res.render('pages/index')
 })
-
-app.use('/services', serviceRoutes)
-
-app.use('/contact', contactRoutes)
