@@ -105,13 +105,16 @@ body {
 }
 
 #downarrow{
+  position: relative;
   margin-top: 25%;
   text-align: center;
-  z-index: 99;
+  z-index: 0;
   cursor: pointer;
 }
 
-
+#contentText{
+  text-align: right !important;
+}
 
 /* Home Page */
 
