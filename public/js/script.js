@@ -34,4 +34,6 @@ $(function(){
   // form validation
   $('.ui.form').form()
 
+  $('.ui.rating').rating()
+
 })

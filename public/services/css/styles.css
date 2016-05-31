@@ -109,6 +109,7 @@ body {
 }
 
 .card:hover {
+  cursor: pointer;
   opacity: 0.8;
 }
 
@@ -116,6 +117,10 @@ body {
   color: orange;
 }
 
+#headerimage{
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
 
 /* Home Page */
 
