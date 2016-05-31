@@ -36,4 +36,13 @@ $(function(){
 
   $('.ui.rating').rating()
 
+  // downarrow
+  $('#downarrow').on('click', function(){
+    $('body, html').animate({
+      scrollTop: $('#mainBody').offset().top
+    }, 'slow')
+  }).transition({
+    animation: 'bounce', duration: '5s'
+  })
+
 })
