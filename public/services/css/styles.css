@@ -142,6 +142,14 @@ body {
   height: 250px:
 }
 
+/*.ui.segment:first-child{
+  margin-top: 150px !important;
+}*/
+
+#contact{
+  margin-top: 15% !important;
+}
+
 /* Footer */
 #footer{
   margin-top: 140px;

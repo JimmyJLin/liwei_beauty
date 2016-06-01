@@ -209,6 +209,12 @@ body {
   height: 250px:
 }
 
+#contact{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .ui.dividing.header{
   text-align: center;
 }
