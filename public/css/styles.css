@@ -150,9 +150,39 @@ body {
   cursor: pointer;
 }
 
-#majorservices{
-  padding-top: 130px
+#headerimage{
+  margin-top: 1px;
+  margin-bottom: 20px;
 }
+
+#gmpaddingbottom{
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 10px;
+}
+#gmcontact{
+  text-align: center;
+}
+
+#majormenu{
+  padding-top: 130px;
+  padding-bottom: 20px;
+}
+
+#pagethreedownarrow{
+  position: relative;
+  margin-top: -5%;
+  text-align: center;
+  z-index: 0;
+  cursor: pointer;
+}
+
+#menupaddingbottom{
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
 /* Home Page */
 
 

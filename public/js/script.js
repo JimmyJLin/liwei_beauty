@@ -53,4 +53,14 @@ $(function(){
     animation: 'bounce', duration: '5s'
   })
 
+  $('#pagethreedownarrow').on('click', function(){
+    $('body, html').animate({
+      scrollTop: $('#majormenu').offset().top
+    }, 'slow')
+  }).transition({
+    animation: 'bounce', duration: '5s'
+  })
+
+  // popup
+  $('.ui.circular.image').popup()
 })
