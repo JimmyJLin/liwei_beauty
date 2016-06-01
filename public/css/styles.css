@@ -64,7 +64,7 @@ body {
 
 #mainImage{
   width: 100%;
-  height: 400px;
+  height: 300px;
   min-height: 100%;
   left: 0;
   top: 0;
@@ -107,7 +107,7 @@ body {
 
 #downarrow{
   position: relative;
-  margin-top: 25%;
+  margin-top: 35%;
   text-align: center;
   z-index: 0;
   cursor: pointer;
@@ -147,6 +147,7 @@ body {
 #pagetwodownarrow{
   position: relative;
   text-align: center;
+  margin-top: -5%;
   z-index: 0;
   cursor: pointer;
 }
