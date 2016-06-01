@@ -2,7 +2,6 @@
 body {
   background-color: #FFFFFF;
 }
-
 .main.container {
   margin-top: 2em;
 }
@@ -234,193 +233,89 @@ body {
   width: 250px;
 }
 
-/* responsive  */
+/* Responsive */
+@media all and (min-width: 1024px) {
+  #mainHead .header{
+    margin-top: 10%;
+  }
+  .overlay.fixed .menu{
+    left: auto !important;
+  }
+}
+
+@media all and (min-width: 990px) {
+  #mainHead .header{
+    margin-top: 10%;
+  }
+  .overlay.fixed .menu{
+    left: 880% !important;
+  }
+}
+
+@media all and (min-width: 631px) {
+  #m_menu.visible{}
+  .overlay.fixed .menu{
+    left: 550%;
+  }
+}
+
+@media all and (max-width: 630px) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+  .overlay.fixed .menu{
+    left: 550%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
+  }
+  .overlay.fixed .menu{
+    left: 300%;
+  }
+}
+
 
 /* Mobile Media Queries */
-/* iPhone 4 & 4S */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-
-  #downarrow{
-    margin-top: 115%;
-  }
-
-  #mainBody{
-    margin-top: 100%;
-  }
-
-  #pagetwoicon{display: none;}
-
-  #majorservices{
-    margin-top: 0px;
-  }
-
-  #paddingbottom {
-    margin-top: 120px;
-  }
-
-  #gmcollingpaddings, #collinglogo, #gmcontact {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  #pagethreedownarrow{
-    margin-top: 0%;
-  }
-
-  #dancingfont{
-    padding-top: 30px;
-  }
-
-  #paddingtopandbotton20{display: none;}
-
-}
 
 /* iPhone 5 & 5S */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-
-  #downarrow{
-    margin-top: 115%;
+@media screen (device-aspect-ratio: 40/71) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
   }
-
-  #mainBody{
-    margin-top: 100%;
+  .overlay.fixed .menu{
+    left: 820%;
   }
-
-  #pagetwoicon{display: none;}
-
-  #majorservices{
-    margin-top: 0px;
-  }
-
-  #paddingbottom {
-    margin-top: 120px;
-  }
-
-  #gmcollingpaddings, #collinglogo, #gmcontact {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  #pagethreedownarrow{
-    margin-top: 0%;
-  }
-
-  #dancingfont{
-    padding-top: 30px;
-  }
-
-  #paddingtopandbotton20{display: none;}
-
-}
-
-/* iPhone 6plus */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-
-  #downarrow{
-    margin-top: 115%;
-  }
-
-  #mainBody{
-    margin-top: 120%;
-  }
-
-  #pagetwoicon{display: none;}
-
-  #majorservices{
-    margin-top: 0px;
-  }
-
-  #paddingbottom {
-    margin-top: 120px;
-  }
-
-  #gmcollingpaddings, #collinglogo, #gmcontact {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  #pagethreedownarrow{
-    margin-top: 0%;
-  }
-
-  #dancingfont{
-    padding-top: 75px;
-  }
-
-  #paddingtopandbotton20{display: none;}
 }
 
 /* iPhone 6 & 6S */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-
-  #downarrow{
-    margin-top: 115%;
+@media screen (device-aspect-ratio: 375/667) {
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
   }
-
-  #mainBody{
-    margin-top: 100%;
+  .overlay.fixed .menu{
+    left: 840%;
   }
-
-  #pagetwoicon{display: none;}
-
-  #majorservices{
-    margin-top: 0px;
-  }
-
-  #paddingbottom {
-    margin-top: 120px;
-  }
-
-  #gmcollingpaddings, #collinglogo, #gmcontact {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  #pagethreedownarrow{
-    margin-top: 0%;
-  }
-
-  #dancingfont{
-    padding-top: 75px;
-  }
-
-  #paddingtopandbotton20{display: none;}
-
 }
 
 /* iPhone 6plus */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-
-  #downarrow{
-    margin-top: 115%;
+  #menu{display: none}
+  #headertext{display: none}
+  #m_btn{
+    display: inline-block;
   }
-
-  #mainBody{
-    margin-top: 120%;
+  .overlay.fixed .menu{
+    left: 850%;
   }
-
-  #pagetwoicon{display: none;}
-
-  #majorservices{
-    margin-top: 0px;
-  }
-
-  #paddingbottom {
-    margin-top: 120px;
-  }
-
-  #gmcollingpaddings, #collinglogo, #gmcontact {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  #pagethreedownarrow{
-    margin-top: 0%;
-  }
-
-  #dancingfont{
-    padding-top: 75px;
-  }
-
-  #paddingtopandbotton20{display: none;}
 }
