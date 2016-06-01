@@ -116,6 +116,32 @@ body {
   text-align: right !important;
 }
 
+#centeraligned{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#leftandrightpadding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#paddingbottom{
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 40px;
+}
+
+#dancingfont{
+  font-size: 3.5em;
+  font-family: 'Dancing Script', cursive;
+}
+
+#paddingtopandbotton20{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 /* Home Page */
 
 
