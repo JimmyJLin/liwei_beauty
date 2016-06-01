@@ -108,10 +108,6 @@ body {
   padding-right: 40px;
 }
 
-.card:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
 
 .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui){
   color: orange;
