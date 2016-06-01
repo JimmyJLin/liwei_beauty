@@ -142,6 +142,17 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+#pagetwodownarrow{
+  position: relative;
+  text-align: center;
+  z-index: 0;
+  cursor: pointer;
+}
+
+#majorservices{
+  padding-top: 130px
+}
 /* Home Page */
 
 

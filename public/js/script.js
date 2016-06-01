@@ -45,5 +45,12 @@ $(function(){
     animation: 'bounce', duration: '5s'
   })
 
+  $('#pagetwodownarrow').on('click', function(){
+    $('body, html').animate({
+      scrollTop: $('#majorservices').offset().top
+    }, 'slow')
+  }).transition({
+    animation: 'bounce', duration: '5s'
+  })
 
 })
