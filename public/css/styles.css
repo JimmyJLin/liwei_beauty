@@ -240,7 +240,9 @@ body {
 #mc_embed_signup input.email{
   width: 250px;
 }
-
+#fineprint{
+  font-size: 0.8em;
+}
 /* responsive  */
 
 /* Mobile Media Queries */
