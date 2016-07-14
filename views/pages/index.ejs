@@ -12,152 +12,17 @@
 
   <!-- Body partial -->
 
-  <div>
-    <div id"textcontainer" class="ui text container">
-      <p></p>
-      <div id="mainBody">
-        <!-- 2nd page Header -->
-        <div id="paddingbottom">
-          <h2 id="dancingfont" class="ui header">The ink on the latest must-do</h2>
-          <div class="sub header">Find out how a brow tattoo can change the way you wear makeup!</div>
-        </div>
+  <div id"textcontainer" class="ui text container">
+    <p></p>
 
-        <!-- Magazine Links -->
-        <div id="centeraligned" class="ui small images stackable">
-          <a href="http://www.elle.com/beauty/makeup-skin-care/tips/a9406/permanent-makeup/" target="_blank"><img id="leftandrightpadding" class="ui image" src="/images/index/elle.png" alt="elle"></a>
-          <a href="http://www.nytimes.com/2011/02/24/fashion/24SKIN.html?_r=0" target="_blank"><img id="leftandrightpadding" class="ui image" src="/images/index/newyorktimes.png" alt="nyt"></a>
-          <a href="http://www.self.com/beauty-style/2016/02/eye-brow-tattoo/" target="_blank"><img id="leftandrightpadding" class="ui image" src="/images/index/selfmagazine.png" alt="self"></a>
-          <a href="http://www.shape.com/lifestyle/beauty-style/pros-and-cons-permanent-makeup" target="_blank"><img id="leftandrightpadding" class="ui image" src="/images/index/shape.png" alt="shape"></a>
-        </div>
+    <!-- second page partial -->
+    <%- include ../partials/index/secondPage.ejs %>
 
-        <div id="paddingtopandbotton20" class="ui piled segments">
-          <div class="ui segment">
-            To schedule an consultation with one of our eyebrow tattoo specialist
-          </div>
-          <div class="ui horizontal segments">
-            <a href="mailto:liweibeauty88@gmail.com" class="ui segment blue basic inverted"><i class="icon mail outline large"></i>Email</a>
-            <a href="tel:9176393900" class="ui segment green basic inverted"><i class="icon phone large"></i>Call us</a>
-          </div>
-        </div>
+    <!-- third page partial -->
+    <%- include ../partials/index/thirdPage.ejs %>
 
-        <!-- page 2 arrow down -->
-        <div id="pagetwodownarrow">
-          <i id="pagetwoicon" class="icon chevron down huge pink"></i>
-        </div>
-
-        <p></p>
-      </div>
-      <!-- Page three - Major services -->
-      <div id="majorservices">
-        <div id="gmpaddingbottom">
-          <h2 id="dancingfont" class="ui header">Pride in our services and brands</h2>
-          <div class="sub header">G.M. Collin one of our premier partners in providing women and men of all ages an exclusive range of products from superior performance clinical treatments to the higest quality dermo-corrective home care </div>
-        </div>
-
-        <div id="collinglogo">
-          <a href="http://www.gmcollin.com/en/index.php?lang=en" target="_blank">
-            <img id="headerimage" class="ui centered aligned image medium" src="images/index/gmcollinlogo.gif" alt="gmcollinlogo">
-          </a>
-        </div>
-
-        <!-- GM Collin service menu items -->
-        <div id="gmcollingpaddings" class="ui tiny images">
-          <a class="item" href="/services/treatment">
-            <img class="ui circular image" data-content="reborn facial" src="/images/index/gmcollin/reborn.jpg">
-          </a>
-          <a class="item" href="/services/treatment">
-            <img class="ui circular image" data-content="algomask facial" src="/images/index/gmcollin/algomask.jpeg">
-          </a>
-          <a class="item" href="/services/treatment">
-            <img class="ui circular image" data-content="sea c spa facial" src="/images/index/gmcollin/seac.jpeg">
-          </a>
-          <a class="item" href="/services/treatment">
-            <img class="ui circular image" data-content="hydro-lifting facial" src="/images/index/gmcollin/hydrolifting.jpeg">
-          </a>
-          <a class="item" href="/services/treatment">
-            <img class="ui circular image" data-content="oxygen facial" src="/images/index/gmcollin/oxygen.jpeg">
-          </a>
-          <a class="item" href="/services/treatment">
-            <img class="ui circular image" data-content="collagen90 facial" src="/images/index/gmcollin/collagen90.jpeg">
-          </a>
-          <a class="item" href="/services/treatment">
-            <img class="ui circular image" data-content="botinol facial" src="/images/index/gmcollin/botinol.jpeg">
-          </a>
-          <a class="item" href="/services/treatment">
-            <img class="ui circular image" data-content="renewal peel" src="/images/index/gmcollin/peel.jpg">
-          </a>
-        </div>
-
-        <div id="gmcontact" class="ui piled segments">
-          <div class="ui segment">
-            To schedule an appointment with one of our GM Collin facial specialist
-          </div>
-          <div class="ui horizontal segments">
-            <a href="mailto:liweibeauty88@gmail.com" class="ui segment blue basic inverted"><i class="icon mail outline large"></i>Email</a>
-            <a href="tel:9176393900" class="ui segment green basic inverted"><i class="icon phone large"></i>Call us</a>
-          </div>
-        </div>
-
-        <div id="pagethreedownarrow">
-          <i class="icon chevron down huge pink"></i>
-        </div>
-      </div>
-
-      <!-- LiWei Major Menus -->
-      <div id="majormenu">
-
-        <div id="menupaddingbottom">
-          <h2 id="dancingfont" class="ui header">Additional products and services</h2>
-          <div class="sub header">We also offers wide range of services inlcuding facials, skincare, eyeline, and eyebrow permanent makeup services </div>
-        </div>
-
-        <div class="ui three column grid">
-          <div class="column">
-            <div class="ui fluid card">
-              <div class="content"><h3>facials</h3></div>
-              <div class="image">
-                <img src="/images/deepfacial.jpg">
-              </div>
-              <div class="header">
-                <a id="contentText" href="/services/facials">Learn more<i class="icon angle double right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui fluid card">
-              <div class="content"><h3>skincare</h3></div>
-              <div class="image">
-                <img src="/images/facelift.jpg">
-              </div>
-              <div class="header">
-                <a id="contentText" href="/services/skincare">Learn more<i class="icon angle double right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui fluid card">
-              <div class="content"><h3>eyebrow tattoo</h3></div>
-              <div class="image">
-                <img src="/images/eyebrow.jpg">
-              </div>
-              <div class="header">
-                <a id="contentText" href="/services/tattoo">Learn more<i class="icon angle double right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="gmcontact" class="ui piled segments">
-          <div class="ui segment">
-            To schedule an appointment with one of our service specialists
-          </div>
-          <div class="ui horizontal segments">
-            <a href="mailto:liweibeauty88@gmail.com" class="ui segment blue basic inverted"><i class="icon mail outline large"></i>Email</a>
-            <a href="tel:9176393900" class="ui segment green basic inverted"><i class="icon phone large"></i>Call us</a>
-          </div>
-        </div>
-
-      </div>
+    <!-- fourth page partial -->
+    <%- include ../partials/index/fourthPage.ejs %>
 
 
   </div>
