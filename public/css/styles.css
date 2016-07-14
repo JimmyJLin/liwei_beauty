@@ -107,7 +107,7 @@ body {
 
 #downarrow{
   position: relative;
-  margin-top: 35%;
+  margin-top: 2%;
   text-align: center;
   z-index: 0;
   cursor: pointer;
@@ -187,7 +187,25 @@ body {
 
 /* Home Page */
 
+#promotionImg{
+  box-shadow: 10px 10px 5px #888888;
+  width: 600px;
+  margin-left: 50px;
+  margin-top: 125px;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
 
+#promotionImg:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+}
 
 /* Services Page */
 #fullpage-wrapper{
@@ -249,8 +267,15 @@ body {
 /* iPhone 4 & 4S */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  #promotionImg{
+    box-shadow: 10px 10px 5px #888888;
+    width: 600px;
+    margin-left: 20%;
+    margin-top: 400px;
+  }
+
   #downarrow{
-    margin-top: 115%;
+    margin-top: 70%;
   }
 
   #mainBody{
@@ -273,7 +298,7 @@ body {
   }
 
   #pagethreedownarrow{
-    margin-top: 0%;
+    margin-top: 15%;
   }
 
   #dancingfont{
@@ -287,8 +312,15 @@ body {
 /* iPhone 5 & 5S */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  #promotionImg{
+    box-shadow: 10px 10px 5px #888888;
+    width: 600px;
+    margin-left: 20%;
+    margin-top: 400px;
+  }
+
   #downarrow{
-    margin-top: 115%;
+    margin-top: 70%;
   }
 
   #mainBody{
@@ -311,7 +343,7 @@ body {
   }
 
   #pagethreedownarrow{
-    margin-top: 0%;
+    margin-top: 15%;
   }
 
   #dancingfont{
@@ -322,52 +354,18 @@ body {
 
 }
 
-/* iPhone 6plus */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-
-  #downarrow{
-    margin-top: 115%;
-  }
-
-  #mainBody{
-    margin-top: 120%;
-  }
-
-  #pagetwoicon{display: none;}
-
-  #majorservices{
-    margin-top: 0px;
-  }
-
-  #paddingbottom {
-    margin-top: 120px;
-  }
-
-  #gmcollingpaddings, #collinglogo, #gmcontact {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  #pagethreedownarrow{
-    margin-top: 0%;
-  }
-
-  #dancingfont{
-    padding-top: 55px;
-  }
-
-  #paddingtopandbotton20{display: none;}
-}
-
 /* iPhone 6 & 6S */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
-  #downarrow{
-    margin-top: 115%;
+  #promotionImg{
+    box-shadow: 10px 10px 5px #888888;
+    width: 600px;
+    margin-left: 20%;
+    margin-top: 400px;
   }
 
-  #mainBody{
-    margin-top: 100%;
+  #downarrow{
+    margin-top: 70%;
   }
 
   #pagetwoicon{display: none;}
@@ -386,7 +384,48 @@ body {
   }
 
   #pagethreedownarrow{
-    margin-top: 0%;
+    margin-top: 15%;
+  }
+
+  #dancingfont{
+    padding-top: 55px;
+  }
+
+  #paddingtopandbotton20{display: none;}
+
+}
+
+/* iPhone 6 & 6S */
+@media only screen and (min-device-width: 376px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  #promotionImg{
+    box-shadow: 10px 10px 5px #888888;
+    width: 600px;
+    margin-left: 20%;
+    margin-top: 300px;
+  }
+
+  #downarrow{
+    margin-top: 60%;
+  }
+
+  #pagetwoicon{display: none;}
+
+  #majorservices{
+    margin-top: 0px;
+  }
+
+  #paddingbottom {
+    margin-top: 120px;
+  }
+
+  #gmcollingpaddings, #collinglogo, #gmcontact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #pagethreedownarrow{
+    margin-top: 1%;
   }
 
   #dancingfont{
@@ -400,8 +439,15 @@ body {
 /* iPhone 6plus */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 
+  #promotionImg{
+    box-shadow: 10px 10px 5px #888888;
+    width: 600px;
+    margin-left: 20%;
+    margin-top: 400px;
+  }
+
   #downarrow{
-    margin-top: 100%;
+    margin-top: 70%;
   }
 
   #mainBody{
@@ -424,11 +470,11 @@ body {
   }
 
   #pagethreedownarrow{
-    margin-top: 0%;
+    margin-top: 15%;
   }
 
   #dancingfont{
-    padding-top: 55px;
+    padding-top: 75px;
   }
 
   #paddingtopandbotton20{display: none;}
@@ -437,8 +483,15 @@ body {
 /* iPad */
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 
+  #promotionImg{
+    box-shadow: 10px 10px 5px #888888;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 250px;
+  }
+
   #downarrow{
-    margin-top: 100%;
+    margin-top: 40%;
   }
 
   #mainBody{
@@ -455,6 +508,10 @@ body {
     margin-top: 120px;
   }
 
+  #gmpaddingbottom {
+    padding-top: 80px;
+  }
+
   #gmcollingpaddings, #collinglogo, #gmcontact {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -469,4 +526,8 @@ body {
   }
 
   #paddingtopandbotton20{display: none;}
-}
+  }
+
+  #footer{
+    margin-top: 12px;
+  }
