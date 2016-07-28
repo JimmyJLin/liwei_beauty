@@ -13,6 +13,16 @@ $(document).ready(function() {
     return false;
   })
 
+  $("#onHoverLargeClickableTwo").click(function(){
+    window.location = $(this).find("a").attr("href");
+    return false;
+  })
+
+  $("#onHoverLargeClickableThree").click(function(){
+    window.location = $(this).find("a").attr("href");
+    return false;
+  })
+
 
   // Dropdown Menu for Services
   $('.dropdown').dropdown()
