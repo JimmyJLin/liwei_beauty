@@ -1,6 +1,19 @@
 $(document).ready(function() {
 
   console.log("Service script.js")
+
+  $("#onHoverLargeClickable").popup()
+  $("#onHoverLargeClickableTwo").popup()
+  $("#onHoverLargeClickableThree").popup()
+  $("#leftandrightpadding").popup()
+  $("#leftandrightpaddingTwo").popup()
+
+  $("#onHoverLargeClickable").click(function(){
+    window.location = $(this).find("a").attr("href");
+    return false;
+  })
+
+
   // Dropdown Menu for Services
   $('.dropdown').dropdown()
 

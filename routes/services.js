@@ -1,6 +1,10 @@
 const express = require('express');
 const services = express.Router();
 
+// Tattoo Detail Routes
+services.route('/details')
+.get((req, res) => res.render('pages/details'))
+
 // Facial Routes
 services.route('/facials')
 .get((req, res) => res.render('pages/facials'))

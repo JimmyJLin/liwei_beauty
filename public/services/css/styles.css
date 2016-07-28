@@ -157,12 +157,77 @@ body {
   transition: all 1s ease;
 }
 
+#onHoverLargeClickable:hover{
+  cursor: pointer;
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+   transform:scale(1.05);
+}
+
+#onHoverLargeClickableTwo:hover{
+  cursor: pointer;
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+   transform:scale(1.05);
+}
+
+#onHoverLargeClickableThree:hover{
+  cursor: pointer;
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+   transform:scale(1.05);
+}
+
 #onHoverLarge:hover {
   -webkit-transform:scale(1.05); /* Safari and Chrome */
   -moz-transform:scale(1.05); /* Firefox */
   -ms-transform:scale(1.05); /* IE 9 */
   -o-transform:scale(1.05); /* Opera */
    transform:scale(1.05);
+}
+
+/* tattoo detail page */
+#centeraligned{
+  text-align: center;
+  padding-bottom: 30px;
+}
+#headerPadding{
+  text-align: center;
+  padding-bottom: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#paddingtop{
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 40px;
+}
+
+#paddingbottom{
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 40px;
+}
+
+#dancingfont{
+  color: #666666;
+  font-size: 3.0em;
+  font-family: 'Dancing Script', cursive;
+}
+
+#paddingtopandbotton20{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /* Contact Page */
