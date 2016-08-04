@@ -186,11 +186,16 @@ body {
 
 
 /* Home Page */
+#promotionalVideo{
+  margin-left: 5%;
+  margin-top: 110px;
+}
 
 #promotionImg{
+  position: relative;
   box-shadow: 10px 10px 5px #888888;
-  width: 600px;
-  margin-left: 50px;
+  width: 500px;
+  margin-left: 5%;
   margin-top: 125px;
   -webkit-transition: all 1s ease; /* Safari and Chrome */
   -moz-transition: all 1s ease; /* Firefox */
@@ -312,6 +317,15 @@ body {
 /* iPhone 5 & 5S */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  #promotionalVideo{
+    margin-left: 12%;
+    margin-top: 150px;
+  }
+
+  #promotionalVideo video{
+    width: 750px;
+  }
+  
   #promotionImg{
     box-shadow: 10px 10px 5px #888888;
     width: 600px;
@@ -357,6 +371,15 @@ body {
 /* iPhone 6 & 6S */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
+  #promotionalVideo{
+    margin-left: 12%;
+    margin-top: 150px;
+  }
+
+  #promotionalVideo video{
+    width: 750px;
+  }
+
   #promotionImg{
     box-shadow: 10px 10px 5px #888888;
     width: 600px;
@@ -395,49 +418,17 @@ body {
 
 }
 
-/* iPhone 6 & 6S */
-@media only screen and (min-device-width: 376px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-
-  #promotionImg{
-    box-shadow: 10px 10px 5px #888888;
-    width: 600px;
-    margin-left: 20%;
-    margin-top: 300px;
-  }
-
-  #downarrow{
-    margin-top: 60%;
-  }
-
-  #pagetwoicon{display: none;}
-
-  #majorservices{
-    margin-top: 0px;
-  }
-
-  #paddingbottom {
-    margin-top: 120px;
-  }
-
-  #gmcollingpaddings, #collinglogo, #gmcontact {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  #pagethreedownarrow{
-    margin-top: 1%;
-  }
-
-  #dancingfont{
-    padding-top: 55px;
-  }
-
-  #paddingtopandbotton20{display: none;}
-
-}
-
 /* iPhone 6plus */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+  #promotionalVideo{
+    margin-left: 12%;
+    margin-top: 150px;
+  }
+
+  #promotionalVideo video{
+    width: 750px;
+  }
 
   #promotionImg{
     box-shadow: 10px 10px 5px #888888;
@@ -482,6 +473,15 @@ body {
 
 /* iPad */
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+  #promotionalVideo{
+    margin-left: 12%;
+    margin-top: 120px;
+  }
+
+  #promotionalVideo video{
+    width: 750px;
+  }
 
   #promotionImg{
     box-shadow: 10px 10px 5px #888888;
