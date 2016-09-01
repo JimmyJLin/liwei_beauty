@@ -57,5 +57,7 @@ $(document).ready(function() {
   // start rating on portfolio
   $('.ui.rating').rating({initialRating:3, onRate: function(){console.log('thanks', $(this).rating('get rating'))}})
 
+  // accordion
+  $('.ui.accordion').accordion()
 
 })
