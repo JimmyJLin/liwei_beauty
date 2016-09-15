@@ -2,6 +2,12 @@ $(document).ready(function() {
 
   console.log("Service script.js")
 
+
+  $('#review_image').on('click', function(){
+    $('.ui.modal.footer').modal('show')
+  })
+
+
   $("#onHoverLargeClickable").popup()
   $("#onHoverLargeClickableTwo").popup()
   $("#onHoverLargeClickableThree").popup()
