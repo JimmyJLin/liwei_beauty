@@ -1,5 +1,11 @@
 $(function(){
   console.log("Regular script.js")
+
+  $('#review_image').on('click', function(){
+    $('.ui.modal.footer').modal('show')
+  })
+
+
   // Dropdown Menu for Services
   $('.dropdown').dropdown()
 

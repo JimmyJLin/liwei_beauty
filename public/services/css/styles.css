@@ -282,4 +282,17 @@ body {
   width: 250px;
 }
 
+#review_content{
+  padding-top: 10px;
+}
+
+#review_image{
+  cursor: pointer;
+  cursor: hand;
+}
+
+#footer_modal{
+  background: transparent;
+}
+
 /* Responsive */

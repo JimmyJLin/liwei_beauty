@@ -266,6 +266,19 @@ body {
 #fineprint{
   font-size: 0.8em;
 }
+
+#review_content{
+  padding-top: 10px;
+}
+
+#review_image{
+  cursor: pointer;
+  cursor: hand;
+}
+
+#footer_modal{
+  background: transparent;
+}
 /* responsive  */
 
 /* Mobile Media Queries */
@@ -325,7 +338,7 @@ body {
   #promotionalVideo video{
     width: 750px;
   }
-  
+
   #promotionImg{
     box-shadow: 10px 10px 5px #888888;
     width: 600px;
@@ -530,4 +543,8 @@ body {
 
   #footer{
     margin-top: 12px;
+  }
+
+  #review_content{
+    padding-top: 10px;
   }
